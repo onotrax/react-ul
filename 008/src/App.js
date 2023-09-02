@@ -7,7 +7,7 @@ export default function App() {
     <>
       <Header />
       <div>
-        <h1>Shubham</h1>
+        <h1>Onotrak</h1>
       </div>
       <Footer />
     </>

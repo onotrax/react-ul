@@ -29,7 +29,7 @@ describe("Counter Component Test", () => {
         const charLength = screen.getByTestId("charLength");
         const wordLength = screen.getByTestId("wordLength");
 
-        userEvent.type(textArea, "shubham");
+        userEvent.type(textArea, "onotrak");
         expect(charLength.innerHTML).toBe("Character: 7");
         expect(wordLength.innerHTML).toBe("Word: 1");
     });
@@ -41,7 +41,7 @@ describe("Counter Component Test", () => {
         const charLength = screen.getByTestId("charLength");
         const wordLength = screen.getByTestId("wordLength");
 
-        userEvent.type(textArea, "shubham");
+        userEvent.type(textArea, "onotrak");
         expect(charLength.innerHTML).toBe("Character: 7");
         expect(wordLength.innerHTML).toBe("Word: 1");
 
